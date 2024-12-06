@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Recursos/css/style_tienda.css">
+    <link rel="stylesheet" href="/Recursos/css/base.css">
+    <script type="module" src="/Recursos/js/principal.js"></script>
+    <title>Impresión 3D | Tienda</title>
+</head>
+<body>
+          <!-- popup -->
+          <dialog class="popup-carro" id="popup-carro">
+            <form method="dialog">
+                <button>CERRAR</button>
+            </form>
+            <h2>Productos</h2>
+            <section id="contenedor-carro">
+                <article>
+                    <ul>
+                        <li>Lista vacia</li>
+                       
+                    </ul>
+                    <hr>
+                </article>
+            </section>
+        </dialog>
+        <!-- fin popup -->
+
+        <dialog class="popup-menu" id="popup-menu">
+          <section class="contenedor-menu">
+            <article>
+              <ul>
+                <li>
+                  <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                  <a href="tienda.html">Tienda</a>
+                </li>
+                <li>
+                  <a href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </article>
+          </section>
+        </dialog>
+    <header class="encabezado">    
+      <a href="index.html">
+        Impresión3D
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="carro-compras">
+          <button class="carro-compras__boton" id="abrir-popup-carro" aria-label="Abrir diálogo">
+            <img
+            src="Recursos/imagenes_inicio/carro.svg"
+            alt="Icono carrito compras"
+            />
+        </button>
+        <span id="carro-contidad-items" class="carro-compras__items">0</span>    
+      </div> 
+
+      <div class="icono_menu">
+        <button class="menu_boton" id="abrir_boton_menu">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFFJREFUSEvtlEkKADAIA83/H52eu1APZQShnquTBaqAR/D9+IA04fqIbDuVdXkgaRK9OcABL+pPu/Ud4A7wDnAAHlF/AN4BDujfwXewJoD/pgNrVBgZX2h0sgAAAABJRU5ErkJggg==" id="abrirMenu"/>
+        </button>
+      </div>
+    </header>
+
+<main class="cuerpo_tienda">
+  <section>
+    <header class="cuerpo_cabecera">
+      <h1>Tienda de impresión 3D</h1>
+    </header>
+  </section>
+
+  <section class="contenedor_productos" id="contenedor-productos">
+    <article class="productos">
+      <figure class="productos_fig">
+        <img src="" alt="" />
+      </figure>
+      <div class="productos__datos">
+        <h3>Titulo</h3>
+        <div>$ 3000</div>
+      </div>
+
+      <div class="contenedor-boton">
+        <button class="productos__boton"
+        data-btn-carro 
+        data-id="0">
+        Agregar carrito
+      </button>
+      </div>
+
+
+    </article>
+  </section>
+
+    </main>
+    <footer class="pie">
+    
+      <div class="medios">
+        <span>MEDIOS DE PAGO</span>
+        <img src="Recursos/medios de pago/Logos-01.png" alt="">       
+        <br>
+      </div> 
+      <div class="contacto_redes">
+        <span>NUESTRAS REDES</span>
+       <img src="Recursos/medios de pago/2024-11-29 (1).png" alt="">
+      </div>
+        <div>
+        </div>
+        <div class="contacto_numero">
+          <span>CONTACTO</span>
+            55-55555-555 <br>
+            impresion3d@gmail.com
+        </div>
+       
+      
+    </footer>
+  
+    </body>
+</html>

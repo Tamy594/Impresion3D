@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Recursos/css/style.css">
+  <link rel="stylesheet" href="/Recursos/css/base.css">
+  <script type="module" src="/Recursos/js/principal.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <title>Impresión 3D</title>
+</head>
+<body>
+  <header class="encabezado">
+              <!-- popup -->
+              <dialog class="popup-carro" id="popup-carro">
+                <form method="dialog">
+                    <button>CERRAR</button>
+                </form>
+                <h2>Productos</h2>
+                <section id="contenedor-carro">
+                    <article>
+                        <ul>
+                            <li>Lista vacia</li>
+                           
+                        </ul>
+                        <hr>
+                    </article>
+                </section>
+            </dialog>
+            <!-- fin popup -->
+
+            <dialog class="popup-menu" id="popup-menu">
+              <section class="contenedor-menu">
+                <article>
+                  <ul>
+                    <li>
+                      <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                      <a href="tienda.html">Tienda</a>
+                    </li>
+                    <li>
+                      <a href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </article>
+              </section>
+            </dialog>
+            
+    <a href="index.html">
+      Impresión3D
+    </a>
+          <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="carro-compras">
+        <button class="carro-compras__boton" id="abrir-popup-carro" aria-label="Abrir diálogo">
+          <img
+          src="Recursos/imagenes_inicio/carro.svg"
+          alt="Icono carrito compras"
+          />
+      </button>
+      <span id="carro-contidad-items" class="carro-compras__items">0</span>    
+    </div> 
+
+    <div class="icono_menu">
+      <button class="menu_boton" id="abrir_boton_menu">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFFJREFUSEvtlEkKADAIA83/H52eu1APZQShnquTBaqAR/D9+IA04fqIbDuVdXkgaRK9OcABL+pPu/Ud4A7wDnAAHlF/AN4BDujfwXewJoD/pgNrVBgZX2h0sgAAAABJRU5ErkJggg==" id="abrirMenu"/>
+      </button>
+    </div>
+
+  </header>
+  <main class="cuerpo">
+    <div class="contenedor-principal">
+      <div class="presentacion">
+        <h3>TU DISEÑO ECHO REALIDAD</h3>
+        <h1>SERVICIO DE IMPRESION 3D </h1>
+        <div class="texto">
+          <p>Transformamos tus ideas en realidad con la más alta calidad y precisión.
+            <br>¡Descubre cómo podemos llevar tus proyectos al siguiente nivel!  
+          </p>
+          <button><a href="contacto.html">Contacta con Nosotros</a></button>
+        </div>
+      </div>
+      <div class="imagen">
+        <img src="Recursos/imagenes_inicio/pngwing.com (7).png" alt="imagenInicio">
+      </div>
+    </div>
+    <div class="descripcion">
+      <h2>¡Damos vida a tus ideas en 3D!</h2>
+      <p>En Impresión 3D ofrecemos un servicio rápido, sencillo y de alta calidad.</p>
+      <p>¿Cómo funciona?</p>
+      <ol>
+        <li>➡ Envía tus diseños (STL u OBJ).</li>
+        <li>➡ Elige tu pago (Bizum o nuestra plataforma segura).</li>
+        <li>➡ ¡Relájate! nos encargamos del resto..</li>
+      </ol>
+
+      <p>Por qué elegirnos:</p>
+      <ul>
+        <li>✔ Asesoramiento experto.</li>
+        <li>✔ Entrega rápida.</li>
+        <li>✔ Calidad garantizada.</li>
+      </ul>
+      <p>Convierte tus ideas en objetos tangibles con la confianza de profesionales apasionados por la impresión 3D.</p>
+      
+          <a href="https://mail.google.com/" target="_blank">
+            <button class="btn btn-primary">Enviar archivos por e-mail</button>
+          </a>
+        <div class="descripcion2">
+
+          <div class="materiales">
+            <div class="imagen-texto">
+              <img src="Recursos/imagenes_inicio/materiales.png.png" alt="logoMateriales">
+            </div>
+            <p><b>Materiales</b><br>
+              Indícanos el tamaño y material en el que quieres recibir tu objeto en 3D. <br>
+              Si no lo tienes claro puedes buscar y descargar modelos en: Printables, Thangs,<br>
+              Cults, MyMiniFactory, STLFinder o Thingiverse.
+            </p>
+          </div>
+          <div class="fabricacion">
+            <div class="imagen-texto">
+              <img src="Recursos/imagenes_inicio/fabricacion.png.png" alt="logoFabricacion">
+            </div>
+            <p><b>Fabricación 3D </b><br>
+              Una vez aprobado el presupuesto nos ponemos manos a la obra imprimiendo tus modelos en 3D. <br>
+              El tiempo de fabricación puede variar en función de la cantidad, la complejidad y el tamaño. <br>
+              Te mantenemos informado!
+            </p>
+          </div>
+          <div class="envio">
+            <div class="imagen-texto">
+              <img src="Recursos/imagenes_inicio/envio.png.png" alt="logoEnvio">
+            </div>
+            <p><b>Enviamos tus piezas </b><br>
+              Recibe tus productos personalizados a domicilio.<br>
+              El tiempo de envio suele ser de 24/48 horas.
+            </p>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <div class="descripcion3">
+      <h4>RESUELVE TUS DUDAS</h4>
+      <h2>Preguntas frecuentes de la impresión 3D</h2>
+      <div class="mostrar">
+        <details>
+          <summary>¿Qué tipo de archivo necesito proporcionar para la impresión?</summary>
+          <p>Generalmente se aceptan formatos como STL, OBJ y 3MF. Estos son los más comunes en la industria de la
+            impresión 3D.</p>
+        </details>
+        <details>
+          <summary>¿Cuanto cuesta imprimir en 3D?</summary>
+          <p>El costo varía según el tamaño del objeto, el material utilizado, la complejidad del diseño y el servicio
+            de impresión. Es recomendable solicitar un presupuesto personalizado.</p>
+        </details>
+        <details>
+          <summary>¿Qué materiales están disponibles para la impresión?</summary>
+          <p>Los materiales más comunes son el PLA (ácido poliláctico), ABS (acrilonitrilo butadieno estireno), PETG
+            (polietileno tereftalato glicol), TPU (poliuretano termoplástico) y resina. Cada material tiene propiedades
+            diferentes, como flexibilidad, resistencia al calor y acabado.</p>
+        </details>
+        <details>
+          <summary>¿Qué resolución o calidad de impresión se puede lograr?</summary>
+          <p>La resolución depende de la impresora 3D y del tamaño de la boquilla. Generalmente, se pueden lograr
+            resoluciones de entre 50 y 200 micrones. A menor micrón, mayor detalle.</p>
+        </details>
+        <details>
+          <summary>¿Pueden hacerse modificaciones al diseño antes de la impresión?</summary>
+          <p>Sí, la mayoría de los servicios de impresión 3D ofrecen servicios de preparación de archivos y pueden
+            realizar modificaciones menores en el diseño.</p>
+        </details>
+        <details>
+          <summary>¿Ofrecen servicios de diseño si no tengo un archivo listo para imprimir?</summary>
+          <p>Muchos servicios de impresión 3D ofrecen servicios de diseño personalizados. Puedes proporcionar una idea o
+            un boceto y ellos se encargarán de crear el modelo 3D para ti.</p>
+        </details>
+        <details>
+          <summary>¿Cuál es el proceso de envío y cómo se garantiza la seguridad del paquete?</summary>
+          <p>El proceso suele ser sencillo. Una vez aprobada la impresión, se envía una confirmación de pedido. El
+            objeto impreso se empaqueta cuidadosamente y se envía a la dirección indicada. Para garantizar la seguridad
+            del paquete, se utilizan materiales de embalaje adecuados y se contratan servicios de envío con seguimiento.
+          </p>
+        </details>
+      </div>
+    </div>
+  </main>
+
+  <footer class="pie">
+  <div class="medios">
+      <span>MEDIOS DE PAGO</span>
+      <img src="Recursos/medios de pago/Logos-01.png" alt="">       
+      <br>
+    </div> 
+    <div class="contacto_redes">
+      <span>NUESTRAS REDES</span>
+     <img src="Recursos/medios de pago/2024-11-29 (1).png" alt="">
+    </div>
+      <div>
+      </div>
+      <div class="contacto_numero">
+        <span>CONTACTO</span>
+          55-55555-555 <br>
+          impresion3d@gmail.com
+      </div>
+  </footer>
+</body>
+
+</html>

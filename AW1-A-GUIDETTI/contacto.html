@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Recursos/css/style_contacto.css">
+    <script type="module" src="/Recursos/js/principal.js"></script>
+    <link rel="stylesheet" href="/Recursos/css/base.css">
+    <title>Impresión 3D | Contacto</title>
+</head>
+<body>
+  <header class="encabezado">
+              <!-- popup -->
+              <dialog class="popup-carro" id="popup-carro">
+                <form method="dialog">
+                    <button>CERRAR</button>
+                </form>
+                <h2>Productos</h2>
+                <section id="contenedor-carro">
+                    <article>
+                        <ul>
+                            <li>Lista vacia</li>
+                           
+                        </ul>
+                        <hr>
+                    </article>
+                </section>
+            </dialog>
+            <!-- fin popup -->
+
+            <dialog class="popup-menu" id="popup-menu">
+              <section class="contenedor-menu">
+                <article>
+                  <ul>
+                    <li>
+                      <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                      <a href="tienda.html">Tienda</a>
+                    </li>
+                    <li>
+                      <a href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </article>
+              </section>
+            </dialog>
+  <a href="index.html">
+    Impresión3D
+  </a>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="tienda.html">Tienda</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+  <div class="carro-compras">
+      <button class="carro-compras__boton" id="abrir-popup-carro" aria-label="Abrir diálogo">
+        <img
+        src="Recursos/imagenes_inicio/carro.svg"
+        alt="Icono carrito compras"
+        />
+    </button>
+    <span id="carro-contidad-items" class="carro-compras__items">0</span>    
+  </div> 
+
+  <div class="icono_menu">
+    <button class="menu_boton" id="abrir_boton_menu">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFFJREFUSEvtlEkKADAIA83/H52eu1APZQShnquTBaqAR/D9+IA04fqIbDuVdXkgaRK9OcABL+pPu/Ud4A7wDnAAHlF/AN4BDujfwXewJoD/pgNrVBgZX2h0sgAAAABJRU5ErkJggg==" id="abrirMenu"/>
+    </button>
+  </div>
+    </header>
+    
+    <main class="cuerpo_contacto">
+      
+      <div class="informacion_contacto">
+        <h4>CONTACTA CON NOSOTROS</h4>
+        <h1>¿En que podemos <br> ayudarte?</h1>
+        <h5>555-55555</h5>
+        <h5>3dimpresiocio@gmail.com</h5>
+      </div>
+
+      <img src="Recursos/imagenes_inicio/pngwing.com (7).png" alt="imagenContacto" class="img_contacto">
+
+      <div class="contenedor_contacto">
+        <form action="#" method="post">
+          <label for="id-nombre">
+            Nombre*
+          </label>
+          <br>
+          <input type="text" name="nombre" id="id-nombre" />
+          <br>
+          <label for="id-correo">
+            Correo electrónico*
+          </label>
+          <br>
+          <input type="email" name="email" id="id-edad" />
+          <br>
+          <label for="id-asunto">
+            Asunto*
+          </label>
+          <br>
+          <input type="text" name="asunto" id="id-email">
+          <br>
+          <br>
+          <label for="">Mensaje*</label>
+          <br>
+          <textarea name="mensaje" id="id-mensaje"></textarea>
+          <br>
+          <button>Enviar</button>
+        </form>
+      </div>
+     
+    </main>
+    <footer class="pie">    
+      <div class="medios">
+        <span>MEDIOS DE PAGO</span>
+        <img src="Recursos/medios de pago/Logos-01.png" alt="">       
+        <br>
+      </div> 
+      <div class="contacto_redes">
+        <span>NUESTRAS REDES</span>
+       <img src="Recursos/medios de pago/2024-11-29 (1).png" alt="">
+      </div>
+        <div>
+        </div>
+        <div class="contacto_numero">
+          <span>CONTACTO</span>
+            55-55555-555 <br>
+            impresion3d@gmail.com
+        </div>
+    </footer>
+    </body>
+</html>
